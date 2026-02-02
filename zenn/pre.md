@@ -45,8 +45,11 @@ URL: https://ipsj.ixsq.nii.ac.jp/records/2005498
 
 points
 
+1. はじめに
 - LLM can generate natural commentary for shogi positions.
 - LLM coused hallucination. It is a problem.
 - To reduce hallucination, use a RAG (Retrieval-Augmented Generation) approach.
-- RAG is a method that retrieves relevant docyment from a database and uses it as context for LLM to generate text.
-- This paper proposes a method that uses a 
+- RAG is a method that retrieves relevant document from a database and uses it as context for LLM to generate text.
+- This paper proposes a method that uses a commentary by a professional shogi player.
+2. Related Research
+- Contrastive Language-Image Pre-training (CLIP) is a method that learns a joint representation of images and text.
